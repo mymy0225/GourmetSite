@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>CookCamp</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/css/modaal.min.css" />
+        <link rel="stylesheet" href="../css/cookcamp.css">
+    </head>
+    <body>
+        <header>
+            <img src="../img/logo.png">
+        </header>
+        <main>
+            <div class="carousel center">
+                <div>
+                    <img class="carousel_img center" src="../img/key_visual.jpg">
+                </div>
+                <div>
+                    <img class="carousel_img center" src="../img/key_visual2.jpg">
+                </div>
+                <div>
+                    <img class="carousel_img center" src="../img/key_visual3.jpg">
+                </div>
+            </div>
+            <h1>新着レシピ</h1>
+            <div class="sumbnail_container flex center">
+                <a id="modal_italian_show" class="show">
+                    <figure>
+                        <img src="../img/image01.jpg">
+                        <figcaption class="figcap_center">季節の色どり前菜</figcaption>
+                    </figure>
+                    <div id="modal_italian" class="modal" data-id="イタリアン">
+                        <figure class="center">
+                            <img src="../img/image08.jpg">
+                            <figcaption>様々な食材を使用し作り上げた色とりどりの前菜はテーブルをカラフルに彩ります♪</figcaption>
+                            <figcaption><button class="share">シェア</button></figcaption>
+                        </figure>
+                    </div>
+                </a>
+                <a id="modal_french_show" class="show">
+                    <figure>
+                        <img src="../img/image02.jpg">
+                        <figcaption class="figcap_center">簡単野菜スープ</figcaption>
+                    </figure>
+                    <div id="modal_french" class="modal" data-id="フレンチ">
+                        <figure class="center">
+                            <img src="../img/image09.jpg">
+                            <figcaption>柔らかく蒸したあとはホイッパーで混ぜるだけの簡単レシピです♪かぼちゃは、ビタミンやミネラルが豊富なので美容や冷え性に良いですよ♪</figcaption>
+                            <figcaption><button class="share">シェア</button></figcaption>
+                        </figure>
+                    </div>
+                </a>
+                <a id="modal_diet_show" class="show">
+                    <figure>
+                        <img src="../img/image03.jpg">
+                        <figcaption class="figcap_center">ヘルシー米粉パン</figcaption>
+                    </figure>
+                    <div id="modal_diet" class="modal" data-id="ダイエット">
+                        <figure class="center">
+                            <img src="../img/image10.jpg">
+                            <figcaption>米粉を使ったさっくりとした軽い食感のパンです♪米粉は日本の主食のお米で作られており、ヘルシーで口当たりもいいですよ♪</figcaption>
+                            <figcaption><button class="share">シェア</button></figcaption>
+                        </figure>
+                    </div>
+                </a>
+                <a id="modal_ethnic_show" class="show">
+                    <figure>
+                        <img src="../img/image04.jpg">
+                        <figcaption class="figcap_center">ぷりぷりエビ料理</figcaption>
+                    </figure>
+                    <div id="modal_ethnic" class="modal" data-id="エスニック">
+                        <figure class="center">
+                            <img src="../img/image11.jpg">
+                            <figcaption>エビがサラダやスープ、ごはんなどに入っていると、テンションが上がりますよね♪ただ、エビは意外に調理が難しいという声も...。実はあるテクニックを使うだけでエビがプリップリに仕上がっちゃうんです♪</figcaption>
+                            <figcaption><button class="share">シェア</button></figcaption>
+                        </figure>
+                    </div>
+                </a>
+            </div>
+        </main>
+        <footer class="center">
+            <small class="center">Copyright &#169; All Rights Reserved</small>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js" integrity="sha256-e8kfivdhut3LQd71YXKqOdkWAG1JKiOs2hqYJTe0uTk=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../js/cookcamp.js"></script>
+    </body>
+</html>
